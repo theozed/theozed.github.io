@@ -3,9 +3,11 @@ body {
 }
 nav {
     background: aliceblue;
-    width: 15em;
-    margin-left: 3em;
+    width: 20em;
+    margin-left: -12em;
 }
+nav:hover { margin-left: 0em;}
+
 img {
     height: 200px;
 }
@@ -19,4 +21,23 @@ h1 {
 h1, h2 {
     color: white;
     background: orange;
+}
+
+table {
+    margin-left: 2em;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid grey;
+}
+
+td.ingredient {
+    text-align: left;
+    padding-right: 1em;
+}
+
+td.amount {
+    text-align: right;
+    padding-left: 1em;
 }
